@@ -6,7 +6,7 @@ module.exports = {
     rules: [
         {
             pattern: //,
-            respondwith: "./footballSNS-mock/optlist.json"
+            respondwith: "./YHOUSE-mock/optlist.json"
         }
     ]
 };
