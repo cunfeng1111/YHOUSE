@@ -2,4 +2,4 @@
 require('QApp');
 
 //views
-require('./views/YHOUSE/index.js');
+require('./views/yhouse/index.js');
