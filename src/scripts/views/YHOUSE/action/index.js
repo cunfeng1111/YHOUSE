@@ -10,11 +10,13 @@ QApp.defineView('index', {
 	html: indexTpl,
 	plugins: ['delegated'],
 	bindActions: {
-		
+		'tap.gotoIndex': function(){
+			QApp.router.home();
+		}
 	},
 	bindEvents: {
 		'beforeShow': function() {
-			console.log(1)
+			
 		}
 	}
 });

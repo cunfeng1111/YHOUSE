@@ -19,7 +19,7 @@
   			<i class="yo-ico">&#xe735;</i>
   			<b>我的</b>
   		</li>
-  		<li>
+  		<li  action-type="tap.gotoIndex">
   			<i class="yo-ico">&#xe6a3;</i>
   			<b>退出</b>
   		</li>
